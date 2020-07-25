@@ -6,6 +6,7 @@ end
 
 def read_from_hash(hash, key)
   # return the correct value using the hash and key parameters
+  inventory = {"hats" => 4}
   hash[key]
 end
 
